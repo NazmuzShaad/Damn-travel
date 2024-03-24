@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Damn Travel</title>
+  <link rel="stylesheet" href="travel.css">
+  <!-- font Linking  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Setup -->
+  <script src="https://kit.fontawesome.com/dbcbd62d0b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <header>
+
+    <!-- Navigation Section  -->
+    <nav>
+      <div class="logo">
+        <h1><img src="Assets/Logos/main-logo.svg" alt="">Damn &nbsp;<span>Travel</span></h1>
+      </div>
+      <ul class="nav-right">
+        <li> <span>Home</span></li>
+        <li>Packages</li>
+        <li>Testimonial</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+
+    </nav>
+    <div class="banner">
+      <div class="banner-text">
+        <h1 class="banner-title">Explore Your Travel</h1>
+        <p class="banner-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing.
+          In
+          et odio enim ac quis sapien urna eu
+          phasellus.</p>
+      </div>
+      <div class="banner-form">
+        <input type="text" placeholder="Where" name="place" id="palce">
+        <form action="time">
+          <select name="time" id="time">
+            <option value="today">Today</option>
+            <option value="tommorow">Tommorow</option>
+            <option value="custom">Custom</option>
+            <option value="When" selected hidden>When</option>
+          </select>
+        </form>
+
+        <form action="type">
+          <select name="type" id="type">
+            <option value="hotel">Hotel</option>
+            <option value="motel">Motel</option>
+            <option value="resort">Resort</option>
+            <option value="type" selected hidden>Select Type</option>
+          </select>
+        </form>
+
+        <button class="banner-button" type="submit"> <i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Popular Section -->
+  <main>
+    <section class="popular-container">
+      <div class="popular-text">
+        <h2 class="shared-title">Our Popular Tours</h2>
+        <p class="shared-paragraph">
+          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh
+          pellentesque.
+        </p>
+
+        <ul class="shared-paragraph">
+          <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .
+          </li>
+          <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.
+          </li>
+          <li>Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+        </ul>
+
+        <p class="shared-paragraph">Amet consectetur. Vulputate commodo felis molestie risus
+          ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque
+          aliquet. Id
+          bibendum nunc senectus semper tincidunt.
+        </p>
+        <button class="popular-button">Read More</button>
+      </div>
+      <div class="popular-image"><img src="Assets/Images/popular.png" alt=""></div>
+    </section>
+
+    <!-- Destinatrion Section  -->
+    <section class="destination-container">
+      <div class="destination-text">
+        <h1 class="shared-title">Choose Your Destination</h1>
+        <p class="shared-paragraph">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.
+          Sodales dictumst nec nibh
+          pellentesque.</p>
+      </div>
+
+      <div class="destination-image-container">
+        <div class="destination-row">
+          <h2 class="image-1">
+            Maldivies
+          </h2>
+          <h2 class="image-2">Indonesia</h2>
+        </div>
+        <div class="destination-row">
+          <h2 class="image-3">Srilanka</h2>
+          <h2 class="image-4">North America</h2>
+          <h2 class="image-5">Kasmir</h2>
+        </div>
+        <div class="destination-row">
+          <h2 class="image-6">Bangladesh</h2>
+          <h2 class="image-7">Bandarbans
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Section  -->
+    <section class="why-section">
+      <div class="why-sub">
+        <h1 class="shared-title">Why Choose Us</h1>
+
+        <p class="shared-paragraph">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.
+          Sodales dictumst nec nibh
+          pellentesque.</p>
+      </div>
+
+      <div class="why-cards">
+        <div class="card-row-1">
+          <div class="card-1">
+            <img src="Assets/Logos/hotel.svg" alt="">
+
+
+            <h1 class="card-title">
+              Handpicked Hotels
+            </h1>
+            <div class="card-description">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
+              Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </div>
+          </div>
+
+          <div class="card-2">
+            <img src="Assets/Logos/map.svg" alt="">
+
+            <h1 class="card-title">
+              World Class Service
+            </h1>
+            <div class="card-description">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
+              Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </div>
+          </div>
+        </div>
+
+        <div class="card-row-2">
+          <div class="card-3">
+            <img src="Assets/Logos/discount.svg" alt="">
+
+            <h1 class="card-title">
+              Best Price Guarantee
+            </h1>
+            <div class="card-description">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
+              Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discount Section  -->
+
+    <section class="discount-section">
+      <div class="discount-text">
+        <h1 class="shared-title">Deals & Discounts</h1>
+        <p class="shared-paragraph">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.
+          Sodales dictumst nec nibh
+          pellentesque.</p>
+      </div>
+
+      <div class="places-container">
+        <div class="place-1">
+          <div class="place-contents">
+            <ul class="place-iconholder">
+              <li><i class="fa-solid fa-clock"></i> 7 Day / 6 Night</li>
+              <li> <i class="fa-solid fa-person"></i> Max : 10</li>
+              <li><i class="fa-solid fa-location-dot"></i> Malaysia</li>
+            </ul>
+
+            <div class="place-text">
+              <h1 class="place-title">Tour To Satorini</h1>
+              <p class="shared-paragraph">Amet consectetur. Vulputate commodo felis
+                molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant
+                adipiscing.</p>
+              <p class="price">Price: $1300-$1500</p>
+            </div>
+
+            <button class="main-button">Book Now</button>
+          </div>
+
+        </div>
+
+        <div class="place-2">
+          <div class="place-contents">
+            <ul class="place-iconholder">
+              <li><i class="fa-solid fa-clock"></i> 7 Day / 6 Night</li>
+              <li> <i class="fa-solid fa-person"></i> Max : 10</li>
+              <li><i class="fa-solid fa-location-dot"></i> Malaysia</li>
+            </ul>
+
+            <div class="place-text">
+              <h1 class="place-title">Tour To Satorini</h1>
+              <p class="shared-paragraph">Amet consectetur. Vulputate commodo felis
+                molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant
+                adipiscing.</p>
+              <p class="price">Price: $1300-$1500</p>
+            </div>
+
+            <button class="main-button">Book Now</button>
+          </div>
+
+        </div>
+
+        <div class="place-1">
+          <div class="place-contents">
+            <ul class="place-iconholder">
+              <li><i class="fa-solid fa-clock"></i> 7 Day / 6 Night</li>
+              <li> <i class="fa-solid fa-person"></i> Max : 10</li>
+              <li><i class="fa-solid fa-location-dot"></i> Malaysia</li>
+            </ul>
+
+            <div class="place-text">
+              <h1 class="place-title">Tour To Satorini</h1>
+              <p class="shared-paragraph">Amet consectetur. Vulputate commodo felis
+                molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant
+                adipiscing.</p>
+              <p class="price">Price: $1300-$1500</p>
+            </div>
+
+            <button class="main-button">Book Now</button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <button class="main-button">See All Packages</button>
+    </section>
+
+    <!-- Video Section  -->
+    <section class="video-container">
+      <div class="video-text">
+        <h1 class="shared-title">A Simple Perfect Place To Get Lost</h1>
+        <p class="shared-paragraph">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
+          Libero commodo sagittis dignissim
+          adipiscing quis.</p>
+
+        <ul class="video-ul">
+          <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.
+          </li>
+          <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.
+          </li>
+        </ul>
+        <button class="main-button">See More</button>
+      </div>
+      <div class="video">
+        <h1 class="invideo-text">Watch Our Mountain in Bangladesh</h1>
+      </div>
+
+    </section>
+
+    <section class="newsletter">
+      <div class="newsletter-container">
+
+        <div class="letter-text">
+          <h1 class="letter-title">
+            Newsletter
+          </h1>
+
+          <p class="shared-paragraph">Get your daily dose of travel news & tips. Sign up today!</p>
+        </div>
+        <hr>
+        <form action="newsletter" class="letter-form">
+          <input type="text" placeholder="Enter your name">
+          <input type="email" placeholder="Enter your email">
+          <button type="submit" class="main-button" style="width: auto;">Subscribe</button>
+        </form>
+      </div>
+
+
+      <div class="letter-image">
+        <img src="Assets/Images/newsletter.png" alt="newsletter">
+        <div class="inpic-text">
+          <p class="pic-paragraph">Travel.com</p>
+          <h1 class="pic-title">Save up to 70%</h1>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="footer-text">
+      <h1 class="footer-logo"><img src="Assets/Logos/main-logo.svg" alt=""> &nbsp;Damn &nbsp;<span>Travel</span></h1>
+      <p class="shared-paragraph">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci
+        potenti vulputate. Leo erat maecenas
+        vitae elementum ultricies nullam.</p>
+    </div>
+
+    <div class="social-icons"><img src="Assets/Logos/1.svg" alt=""><img src="Assets/Logos/2.svg" alt=""><img
+        src="Assets/Logos/3.svg" alt=""><img src="Assets/Logos/4.svg" alt=""></div>
+    <hr class="footer-hr">
+
+    <p class="copyright">2017, All Rights Reserved.</p>
+
+  </footer>
+
+
+</body>
+
+</html>
